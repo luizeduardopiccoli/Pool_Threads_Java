@@ -1,0 +1,552 @@
+Teste de corretude:
+
+MyPool.java
+
+NTHREADS = 10 e i < 25
+
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ javac MyPool.java
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java MyPool
+O número 1 não é primo
+O número 10 não é primo
+O número 5 é primo
+O número 12 não é primo
+O número 13 é primo
+O número 14 não é primo
+O número 15 não é primo
+O número 16 não é primo
+O número 17 é primo
+O número 18 não é primo
+O número 19 é primo
+O número 20 não é primo
+O número 21 não é primo
+O número 22 não é primo
+O número 23 é primo
+O número 24 não é primo
+O número 3 é primo
+O número 7 é primo
+O número 6 não é primo
+O número 2 é primo
+O número 4 não é primo
+O número 8 não é primo
+O número 0 não é primo
+O número 9 não é primo
+O número 11 é primo
+Terminou
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java MyPool
+O número 5 é primo
+O número 10 não é primo
+O número 11 é primo
+O número 12 não é primo
+O número 13 é primo
+O número 14 não é primo
+O número 15 não é primo
+O número 16 não é primo
+O número 17 é primo
+O número 18 não é primo
+O número 19 é primo
+O número 20 não é primo
+O número 21 não é primo
+O número 22 não é primo
+O número 23 é primo
+O número 24 não é primo
+O número 2 é primo
+O número 4 não é primo
+O número 0 não é primo
+O número 3 é primo
+O número 8 não é primo
+O número 9 não é primo
+O número 1 não é primo
+O número 7 é primo
+O número 6 não é primo
+Terminou
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java MyPool
+O número 5 é primo
+O número 10 não é primo
+O número 2 é primo
+O número 12 não é primo
+O número 13 é primo
+O número 14 não é primo
+O número 15 não é primo
+O número 16 não é primo
+O número 17 é primo
+O número 11 é primo
+O número 19 é primo
+O número 20 não é primo
+O número 18 não é primo
+O número 7 é primo
+O número 4 não é primo
+O número 3 é primo
+O número 24 não é primo
+O número 6 não é primo
+O número 21 não é primo
+O número 9 não é primo
+O número 1 não é primo
+O número 0 não é primo
+O número 8 não é primo
+O número 23 é primo
+O número 22 não é primo
+Terminou
+
+NTHREADS = 1 e i < 95
+
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ javac MyPool.java
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java MyPool
+O número 0 não é primo
+O número 1 não é primo
+O número 2 é primo
+O número 3 é primo
+O número 4 não é primo
+O número 5 é primo
+O número 6 não é primo
+O número 7 é primo
+O número 8 não é primo
+O número 9 não é primo
+O número 10 não é primo
+O número 11 é primo
+O número 12 não é primo
+O número 13 é primo
+O número 14 não é primo
+O número 15 não é primo
+O número 16 não é primo
+O número 17 é primo
+O número 18 não é primo
+O número 19 é primo
+O número 20 não é primo
+O número 21 não é primo
+O número 22 não é primo
+O número 23 é primo
+O número 24 não é primo
+O número 25 não é primo
+O número 26 não é primo
+O número 27 não é primo
+O número 28 não é primo
+O número 29 é primo
+O número 30 não é primo
+O número 31 é primo
+O número 32 não é primo
+O número 33 não é primo
+O número 34 não é primo
+O número 35 não é primo
+O número 36 não é primo
+O número 37 é primo
+O número 38 não é primo
+O número 39 não é primo
+O número 40 não é primo
+O número 41 é primo
+O número 42 não é primo
+O número 43 é primo
+O número 44 não é primo
+O número 45 não é primo
+O número 46 não é primo
+O número 47 é primo
+O número 48 não é primo
+O número 49 não é primo
+O número 50 não é primo
+O número 51 não é primo
+O número 52 não é primo
+O número 53 é primo
+O número 54 não é primo
+O número 55 não é primo
+O número 56 não é primo
+O número 57 não é primo
+O número 58 não é primo
+O número 59 é primo
+O número 60 não é primo
+O número 61 é primo
+O número 62 não é primo
+O número 63 não é primo
+O número 64 não é primo
+O número 65 não é primo
+O número 66 não é primo
+O número 67 é primo
+O número 68 não é primo
+O número 69 não é primo
+O número 70 não é primo
+O número 71 é primo
+O número 72 não é primo
+O número 73 é primo
+O número 74 não é primo
+O número 75 não é primo
+O número 76 não é primo
+O número 77 não é primo
+O número 78 não é primo
+O número 79 é primo
+O número 80 não é primo
+O número 81 não é primo
+O número 82 não é primo
+O número 83 é primo
+O número 84 não é primo
+O número 85 não é primo
+O número 86 não é primo
+O número 87 não é primo
+O número 88 não é primo
+O número 89 é primo
+O número 90 não é primo
+O número 91 não é primo
+O número 92 não é primo
+O número 93 não é primo
+O número 94 não é primo
+Terminou
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java MyPool
+O número 0 não é primo
+O número 1 não é primo
+O número 2 é primo
+O número 3 é primo
+O número 4 não é primo
+O número 5 é primo
+O número 6 não é primo
+O número 7 é primo
+O número 8 não é primo
+O número 9 não é primo
+O número 10 não é primo
+O número 11 é primo
+O número 12 não é primo
+O número 13 é primo
+O número 14 não é primo
+O número 15 não é primo
+O número 16 não é primo
+O número 17 é primo
+O número 18 não é primo
+O número 19 é primo
+O número 20 não é primo
+O número 21 não é primo
+O número 22 não é primo
+O número 23 é primo
+O número 24 não é primo
+O número 25 não é primo
+O número 26 não é primo
+O número 27 não é primo
+O número 28 não é primo
+O número 29 é primo
+O número 30 não é primo
+O número 31 é primo
+O número 32 não é primo
+O número 33 não é primo
+O número 34 não é primo
+O número 35 não é primo
+O número 36 não é primo
+O número 37 é primo
+O número 38 não é primo
+O número 39 não é primo
+O número 40 não é primo
+O número 41 é primo
+O número 42 não é primo
+O número 43 é primo
+O número 44 não é primo
+O número 45 não é primo
+O número 46 não é primo
+O número 47 é primo
+O número 48 não é primo
+O número 49 não é primo
+O número 50 não é primo
+O número 51 não é primo
+O número 52 não é primo
+O número 53 é primo
+O número 54 não é primo
+O número 55 não é primo
+O número 56 não é primo
+O número 57 não é primo
+O número 58 não é primo
+O número 59 é primo
+O número 60 não é primo
+O número 61 é primo
+O número 62 não é primo
+O número 63 não é primo
+O número 64 não é primo
+O número 65 não é primo
+O número 66 não é primo
+O número 67 é primo
+O número 68 não é primo
+O número 69 não é primo
+O número 70 não é primo
+O número 71 é primo
+O número 72 não é primo
+O número 73 é primo
+O número 74 não é primo
+O número 75 não é primo
+O número 76 não é primo
+O número 77 não é primo
+O número 78 não é primo
+O número 79 é primo
+O número 80 não é primo
+O número 81 não é primo
+O número 82 não é primo
+O número 83 é primo
+O número 84 não é primo
+O número 85 não é primo
+O número 86 não é primo
+O número 87 não é primo
+O número 88 não é primo
+O número 89 é primo
+O número 90 não é primo
+O número 91 não é primo
+O número 92 não é primo
+O número 93 não é primo
+O número 94 não é primo
+Terminou
+
+NTHREADS = 3 e i < 50
+
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ javac MyPool.java
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java MyPool
+O número 0 não é primo
+O número 1 não é primo
+O número 4 não é primo
+O número 5 é primo
+O número 6 não é primo
+O número 7 é primo
+O número 8 não é primo
+O número 9 não é primo
+O número 10 não é primo
+O número 11 é primo
+O número 12 não é primo
+O número 2 é primo
+O número 13 é primo
+O número 14 não é primo
+O número 15 não é primo
+O número 16 não é primo
+O número 17 é primo
+O número 3 é primo
+O número 20 não é primo
+O número 21 não é primo
+O número 22 não é primo
+O número 23 é primo
+O número 24 não é primo
+O número 25 não é primo
+O número 26 não é primo
+O número 27 não é primo
+O número 19 é primo
+O número 29 é primo
+O número 30 não é primo
+O número 31 é primo
+O número 32 não é primo
+O número 33 não é primo
+O número 34 não é primo
+O número 35 não é primo
+O número 36 não é primo
+O número 37 é primo
+O número 38 não é primo
+O número 39 não é primo
+O número 40 não é primo
+O número 41 é primo
+O número 42 não é primo
+O número 43 é primo
+O número 44 não é primo
+O número 45 não é primo
+O número 46 não é primo
+O número 47 é primo
+O número 48 não é primo
+O número 49 não é primo
+O número 18 não é primo
+O número 28 não é primo
+Terminou
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java MyPool
+O número 0 não é primo
+O número 1 não é primo
+O número 4 não é primo
+O número 5 é primo
+O número 6 não é primo
+O número 7 é primo
+O número 8 não é primo
+O número 9 não é primo
+O número 10 não é primo
+O número 11 é primo
+O número 12 não é primo
+O número 13 é primo
+O número 14 não é primo
+O número 15 não é primo
+O número 16 não é primo
+O número 17 é primo
+O número 18 não é primo
+O número 19 é primo
+O número 20 não é primo
+O número 21 não é primo
+O número 22 não é primo
+O número 23 é primo
+O número 24 não é primo
+O número 25 não é primo
+O número 26 não é primo
+O número 27 não é primo
+O número 28 não é primo
+O número 29 é primo
+O número 30 não é primo
+O número 31 é primo
+O número 32 não é primo
+O número 33 não é primo
+O número 34 não é primo
+O número 35 não é primo
+O número 36 não é primo
+O número 37 é primo
+O número 38 não é primo
+O número 39 não é primo
+O número 40 não é primo
+O número 41 é primo
+O número 42 não é primo
+O número 43 é primo
+O número 44 não é primo
+O número 45 não é primo
+O número 46 não é primo
+O número 47 é primo
+O número 48 não é primo
+O número 49 não é primo
+O número 2 é primo
+O número 3 é primo
+Terminou
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java MyPool
+O número 1 não é primo
+O número 3 é primo
+O número 4 não é primo
+O número 5 é primo
+O número 0 não é primo
+O número 7 é primo
+O número 8 não é primo
+O número 9 não é primo
+O número 10 não é primo
+O número 11 é primo
+O número 12 não é primo
+O número 13 é primo
+O número 14 não é primo
+O número 15 não é primo
+O número 16 não é primo
+O número 2 é primo
+O número 18 não é primo
+O número 19 é primo
+O número 20 não é primo
+O número 21 não é primo
+O número 17 é primo
+O número 23 é primo
+O número 6 não é primo
+O número 25 não é primo
+O número 26 não é primo
+O número 27 não é primo
+O número 28 não é primo
+O número 29 é primo
+O número 30 não é primo
+O número 31 é primo
+O número 32 não é primo
+O número 33 não é primo
+O número 34 não é primo
+O número 35 não é primo
+O número 36 não é primo
+O número 37 é primo
+O número 24 não é primo
+O número 22 não é primo
+O número 40 não é primo
+O número 41 é primo
+O número 42 não é primo
+O número 43 é primo
+O número 44 não é primo
+O número 45 não é primo
+O número 46 não é primo
+O número 47 é primo
+O número 48 não é primo
+O número 49 não é primo
+O número 39 não é primo
+O número 38 não é primo
+Terminou
+
+NTHREADS = 50 e i < 10
+
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ javac MyPool.java
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java MyPool
+O número 9 não é primo
+O número 7 é primo
+O número 6 não é primo
+O número 2 é primo
+O número 5 é primo
+O número 3 é primo
+O número 4 não é primo
+O número 0 não é primo
+O número 1 não é primo
+O número 8 não é primo
+Terminou
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java MyPool
+O número 8 não é primo
+O número 0 não é primo
+O número 3 é primo
+O número 2 é primo
+O número 5 é primo
+O número 4 não é primo
+O número 1 não é primo
+O número 7 é primo
+O número 9 não é primo
+O número 6 não é primo
+Terminou
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java MyPool
+O número 8 não é primo
+O número 5 é primo
+O número 6 não é primo
+O número 0 não é primo
+O número 7 é primo
+O número 9 não é primo
+O número 3 é primo
+O número 4 não é primo
+O número 1 não é primo
+O número 2 é primo
+Terminou
+
+FutureHello.java
+
+N_LIMITE = 50 e NTHREADS = 10
+
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ javac FutureHello.java
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java FutureHello
+Total de números verificados: 50
+Quantidade de números primos no intervalo de 1 a 50: 15
+Tempo de execução total (milisegundos): 16ms
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java FutureHello
+Total de números verificados: 50
+Quantidade de números primos no intervalo de 1 a 50: 15
+Tempo de execução total (milisegundos): 15ms
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java FutureHello
+Total de números verificados: 50
+Quantidade de números primos no intervalo de 1 a 50: 15
+Tempo de execução total (milisegundos): 15ms
+
+N_LIMITE = 100000 e NTHREADS = 4
+
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ javac FutureHello.java
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java FutureHello
+Total de números verificados: 100000
+Quantidade de números primos no intervalo de 1 a 100000: 9592
+Tempo de execução total (milisegundos): 96ms
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java FutureHello
+Total de números verificados: 100000
+Quantidade de números primos no intervalo de 1 a 100000: 9592
+Tempo de execução total (milisegundos): 105ms
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java FutureHello
+Total de números verificados: 100000
+Quantidade de números primos no intervalo de 1 a 100000: 9592
+Tempo de execução total (milisegundos): 98ms
+
+N_LIMITE = 100000 e NTHREADS = 1
+
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ javac FutureHello.java
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java FutureHello
+Total de números verificados: 100000
+Quantidade de números primos no intervalo de 1 a 100000: 9592
+Tempo de execução total (milisegundos): 105ms
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java FutureHello
+Total de números verificados: 100000
+Quantidade de números primos no intervalo de 1 a 100000: 9592
+Tempo de execução total (milisegundos): 112ms
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java FutureHello
+Total de números verificados: 100000
+Quantidade de números primos no intervalo de 1 a 100000: 9592
+Tempo de execução total (milisegundos): 103ms
+
+N_LIMITE = 1000000 e NTHREADS = 4
+
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ javac FutureHello.java
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java FutureHello
+Total de números verificados: 1000000
+Quantidade de números primos no intervalo de 1 a 1000000: 78498
+Tempo de execução total (milisegundos): 684ms
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java FutureHello
+Total de números verificados: 1000000
+Quantidade de números primos no intervalo de 1 a 1000000: 78498
+Tempo de execução total (milisegundos): 692ms
+ed@Computador-1-B:/mnt/c/Users/Master/Downloads/cods-lab11/cods-lab11$ java FutureHello
+Total de números verificados: 1000000
+Quantidade de números primos no intervalo de 1 a 1000000: 78498
+Tempo de execução total (milisegundos): 613ms
